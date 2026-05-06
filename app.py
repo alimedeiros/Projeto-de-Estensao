@@ -7,25 +7,40 @@ app = Flask(__name__)
 ecopontos_bd = [
     {
         "id": 1,
-        "nome": "Ecoponto - Jardim Três Marias",
-        "endereco": "Rua Exemplo do Bairro, 123, Jardim Três Marias, SP",
-        "materiais": "Computadores, Monitores, Teclados",
-        "horario": "Segunda a Sábado, 08:00 às 17:00"
+        "nome": "Ecoponto 24 de Agosto",
+        "endereco": "Rua Coração Sertanejo, 41 - Conj. Hab. Fazenda, São Paulo - SP",
+        "materiais": "Eletroeletrônicos, Entulho, Computadores, Monitores, Teclados",
+        "horario": "Seg-Sáb: 06:00 às 22:00 / Dom: 06:00 às 18:00"
     },
     {
         "id": 2,
-        "nome": "Ponto de Recolha Supermercado Central",
-        "endereco": "Av. Principal, 456, Jardim Três Marias, SP",
+        "nome": "Ecoponto Jardim São Paulo",
+        "endereco": "Rua Utaro Kanai, 374 - Conj. Hab. Juscelino Kubitscheck, São Paulo - SP",
         "materiais": "Pilhas e Baterias de Telemóvel",
-        "horario": "Todos os dias, 07:00 às 22:00"
+        "horario": "Seg-Sáb: 06:00 às 22:00 / Dom: 06:00 às 18:00"
     },
     {
         "id": 3,
-        "nome": "Coleta Cidadã - Posto Poupatempo (Unidade Mais Próxima)",
-        "endereco": "Av. de Acesso, 789, SP",
+        "nome": "Ecoponto Nascer do Sol",
+        "endereco": "Rua Nascer do Sol, 356 - Conj. Hab. Santa Etelvina II, São Paulo - SP",
         "materiais": "Pequenos Eletrónicos, Telemóveis Antigos, Cabos",
-        "horario": "Segunda a Sexta, 09:00 às 17:00"
+        "horario": "Seg-Sáb: 06:00 às 22:00 / Dom: 06:00 às 18:00"
+    },
+    {
+        "id": 4,
+        "nome": "Ecoponto Inácio Monteiro",
+        "endereco": "Rua Regresso Feliz, 1190 - Conj. Hab. Inácio Monteiro, São Paulo - SP",
+        "materiais": "Eletroeletrônicos, Entulho, Volumosos e Recicláveis",
+        "horario": "Seg-Sáb: 06:00 às 22:00 / Dom: 06:00 às 18:00"
+    },
+    {
+        "id": 5,
+        "nome": "Ecoponto Setor G (Barro Branco)",
+        "endereco": "Rua Alfonso Asturaro, 733 - Conj. Hab. Barro Branco II, São Paulo - SP",
+        "materiais": "Eletroeletrônicos, Cabos e Recicláveis",
+        "horario": "Seg-Sáb: 06:00 às 22:00 / Dom: 06:00 às 18:00"
     }
+    
 ]
 
 # Rota principal para carregar a página visual (HTML)
